@@ -6,4 +6,16 @@
     android:layout_height="match_parent"
     tools:context=".adminInterface">
 
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="204dp"
+        android:layout_height="154dp"
+        android:layout_marginTop="300dp"
+        android:text="Diri mag input or upload sa mga class schedules. To be updated soon. "
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
