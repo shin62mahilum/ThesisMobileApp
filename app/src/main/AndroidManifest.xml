@@ -13,6 +13,20 @@
         android:theme="@style/Theme.ThesisMobileApp"
         tools:targetApi="31">
         <activity
+            android:name=".Room11"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Building1Rooms"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".userInterface"
             android:exported="false">
             <meta-data

@@ -7,26 +7,28 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class userInterface extends AppCompatActivity {
+public class Building1Rooms extends AppCompatActivity {
 
-    private Button btnBuilding1;
+    private Button btnRoom11;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_user_interface);
+        setContentView(R.layout.activity_building1_rooms);
 
-        btnBuilding1 = (Button) findViewById(R.id.btnBuilding1);
-        btnBuilding1.setOnClickListener(new View.OnClickListener() {
+        btnRoom11 = (Button) findViewById(R.id.btnRoom11);
+        btnRoom11.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                openBuilding1();
+                openRoom11();
             }
         });
+
     }
 
-    public void openBuilding1() {
-        Intent intent = new Intent(this, Building1Rooms.class);
+    public void openRoom11() {
+        Intent intent = new Intent(this, Room11.class);
         startActivity(intent);
     }
+
 }
